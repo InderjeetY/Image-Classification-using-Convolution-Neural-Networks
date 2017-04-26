@@ -1,0 +1,6 @@
+{
+	"model": "knn",
+	"num_training": 5000,
+	"num_testing": 8000,
+	"dataset": "stl10"
+}

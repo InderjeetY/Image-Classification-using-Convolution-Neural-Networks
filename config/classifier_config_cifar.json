@@ -1,0 +1,6 @@
+{
+	"model": "knn",
+	"num_training": 50000,
+	"num_testing": 10000,
+	"dataset": "cifar10"
+}

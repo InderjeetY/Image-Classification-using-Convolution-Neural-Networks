@@ -1,0 +1,6 @@
+{
+	"model": "knn",
+	"num_training": 7724,
+	"num_testing": 1421,
+	"dataset": "caltech101"
+}
