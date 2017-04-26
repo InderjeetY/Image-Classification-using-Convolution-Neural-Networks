@@ -40,26 +40,26 @@ You will need to install the following packages:
 
 
 The following are the options that can be configured:
-•	Input Dimension – This parameter handles the dimensions of the image set will be having.
-•	Number of Convolution Layers – This parameter helps to generate CNN models of different number of CONV layers.
-•	Training Data set – This parameter is used to predefine the size of training dataset.
-•	Validation Data set – This parameter is used to predefine the size of validation data set.
-•	Weight Scale – This parameter helps to scale the randomly initialized Weights.
-•	Regularization – To set the value of regularization constant for Loss Function.
-•	Filter Size – To set size of filter weight matrix at CONV layer for feature extraction.
-•	BatchNorm – This parameter accepts the Boolean values for presence or absence of Normalization layer in CNN.
-•	Number of Epochs – This parameter defines the number of iterations required to train CNN which randomly initialized weights every time.
-•	Batch Size – Value of this parameter handles number of desired batches for training dataset.
-•	Update Rule – This is used to handle Weight’s updating function.
-•	Use Pool – This is an array of size of number of CONV layers in the model with only Boolean values to define that whether pooling is to be applied at each CONV layer. 
-•	Number of Filters - This is an array of size of number of CONV layers in the model with values to define the number of filters at each layer of feature extraction  
-•	Learning Rate – This parameter defines the rate of training the data set.
-•	Momentum – This parameter is used to handle the running variance and mean of CONV layer.
-•	lr_decay – This parameter the constant at which learning rate decays.
-•	Hidden Layer Dimensions – This parameter handles the number of hidden layers and their dimensions in Fully Connected layer to map each image linearly.
-•	Verbose – Set to true for printing the errors for each iteration of training.
-•	eps – It is the value used in batch normalization which is added to the variance
-•	dataset – It has 3 possible values: {"cifar10", "stl10", "caltech101"}
+- 	Input Dimension – This parameter handles the dimensions of the image set will be having.
+- 	Number of Convolution Layers – This parameter helps to generate CNN models of different number of CONV layers.
+- 	Training Data set – This parameter is used to predefine the size of training dataset.
+- 	Validation Data set – This parameter is used to predefine the size of validation data set.
+- 	Weight Scale – This parameter helps to scale the randomly initialized Weights.
+- 	Regularization – To set the value of regularization constant for Loss Function.
+- 	Filter Size – To set size of filter weight matrix at CONV layer for feature extraction.
+- 	BatchNorm – This parameter accepts the Boolean values for presence or absence of Normalization layer in CNN.
+- 	Number of Epochs – This parameter defines the number of iterations required to train CNN which randomly initialized weights every time.
+- 	Batch Size – Value of this parameter handles number of desired batches for training dataset.
+- 	Update Rule – This is used to handle Weight’s updating function.
+- 	Use Pool – This is an array of size of number of CONV layers in the model with only Boolean values to define that whether pooling is to be applied at each CONV layer. 
+- 	Number of Filters - This is an array of size of number of CONV layers in the model with values to define the number of filters at each layer of feature extraction  
+- 	Learning Rate – This parameter defines the rate of training the data set.
+- 	Momentum – This parameter is used to handle the running variance and mean of CONV layer.
+- 	lr_decay – This parameter the constant at which learning rate decays.
+- 	Hidden Layer Dimensions – This parameter handles the number of hidden layers and their dimensions in Fully Connected layer to map each image linearly.
+- 	Verbose – Set to true for printing the errors for each iteration of training.
+- 	eps – It is the value used in batch normalization which is added to the variance
+- 	dataset – It has 3 possible values: {"cifar10", "stl10", "caltech101"}
 Sample configs have been provided in the configuration folder. The configuration files name should be "cnn_config.json"
 
 
@@ -76,8 +76,8 @@ You will need to install the following pacakage:
 
 You then go to the folder where the file convolution_net_main.py is placed and execute it by using the following command: "python other_classifier.py"
 
-•	model – It has the following possible outputs: {"random_forest", "ada_boost", "knn", "extra_tree_classifier", "naive_bayes"}
-•	num_training – The number of training data 
-•	num_testing – The number of testing data
-•	dataset – It has 3 possible values: {"cifar10", "stl10", "caltech101"}
+- 	model – It has the following possible outputs: {"random_forest", "ada_boost", "knn", "extra_tree_classifier", "naive_bayes"}
+- 	num_training – The number of training data 
+- 	num_testing – The number of testing data
+- 	dataset – It has 3 possible values: {"cifar10", "stl10", "caltech101"}
 Sample configs have been provided in the configuration folder. The configuration files name should be "classifier_config.json"
