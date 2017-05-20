@@ -1,4 +1,4 @@
-# cnn
+# Image Classification using Convolution Neural Networks and Comparison with Other Algorithms
 This is a Configurable Convolutoin Neural Network.
 
 DATASETS
@@ -81,3 +81,11 @@ You then go to the folder where the file convolution_net_main.py is placed and e
 - 	num_testing – The number of testing data
 - 	dataset – It has 3 possible values: {"cifar10", "stl10", "caltech101"}
 Sample configs have been provided in the configuration folder. The configuration files name should be "classifier_config.json"
+
+
+STATISTICAL TESTS
+The errors for the algorithm were stored and then the ANOVA and Wilcoxon statistical tests were performed.
+
+- For ANOVA test we used the Cifar 10 dataset on CNN, Naive Bayes, Random Forest, Ada Boost and Extra Tree Classifier algorithms.
+- For Wilcoxon test we used 3 datasets (Cifar 10, Stl 10 and Caltech 101) on CNN, K-Nearest Neighbours (K=10), Naive Bayes, Random Forest, Ada Boost and Extra Tree Classifier algorithms.
+To execute the code for statistical test run the following command in command line after going to the place where the file is kept: Rscript algorithm_comparision.R
