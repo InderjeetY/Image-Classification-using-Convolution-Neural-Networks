@@ -40,7 +40,7 @@ You will need to install the following packages:
 
 
 The following are the options that can be configured:
-- 	Input Dimension – This parameter handles the dimensions of the image set will be having.
+- 	Input Dimension – This parameter has the expected dimensions of the image set.
 - 	Number of Convolution Layers – This parameter helps to generate CNN models of different number of CONV layers.
 - 	Training Data set – This parameter is used to predefine the size of training dataset.
 - 	Validation Data set – This parameter is used to predefine the size of validation data set.
