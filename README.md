@@ -88,4 +88,5 @@ The errors for the algorithm were stored and then the ANOVA and Wilcoxon statist
 
 - For ANOVA test we used the Cifar 10 dataset on CNN, Naive Bayes, Random Forest, Ada Boost and Extra Tree Classifier algorithms.
 - For Wilcoxon test we used 3 datasets (Cifar 10, Stl 10 and Caltech 101) on CNN, K-Nearest Neighbours (K=10), Naive Bayes, Random Forest, Ada Boost and Extra Tree Classifier algorithms.
+
 To execute the code for statistical test run the following command in command line after going to the place where the file is kept: Rscript algorithm_comparision.R
