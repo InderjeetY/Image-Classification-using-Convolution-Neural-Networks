@@ -84,6 +84,7 @@ Sample configs have been provided in the configuration folder. The configuration
 
 
 STATISTICAL TESTS
+
 The errors for the algorithm were stored and then the ANOVA and Wilcoxon statistical tests were performed.
 
 - For ANOVA test we used the Cifar 10 dataset on CNN, Naive Bayes, Random Forest, Ada Boost and Extra Tree Classifier algorithms.
